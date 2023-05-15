@@ -1,0 +1,40 @@
+@import './common.scss';
+header {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  background-color: #d7d5d5;
+  padding-block: 2rem;
+  padding-inline: 2rem;
+  font-family: $sans;
+  .logo {
+    font-size: 1.3rem;
+    padding: 0.2em 0.4em;
+    font-weight: 600;
+  }
+  nav {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    ul {
+      list-style-type: none;
+      display: flex;
+      height: 100%;
+      .nav-link {
+        display: inline-flex;
+        align-items: center;
+        text-decoration: none;
+        color: black;
+        padding-inline: 1em;
+        height: 100%;
+        width: max-content;
+        &:hover {
+          background-color: black;
+          color: rgb(162, 160, 160);
+        }
+      }
+    }
+  }
+}
