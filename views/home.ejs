@@ -1,23 +1,10 @@
 <link rel="stylesheet" href="/dist/home.css" />
 <div class="container">
-  <div class="heading">Home Page</div>
-  <div class="content">
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae perspiciatis
-    fuga numquam consectetur doloribus quos dolor soluta odit reiciendis quas
-    voluptatum, labore blanditiis amet ea non architecto eaque ipsum. Ut
-    consequuntur expedita ratione fuga, doloremque animi debitis dolorem sint.
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae perspiciatis
-    fuga numquam consectetur doloribus quos dolor soluta odit reiciendis quas
-    voluptatum, labore blanditiis amet ea non architecto eaque ipsum. Ut
-    consequuntur expedita ratione fuga, doloremque animi debitis dolorem sint.
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae perspiciatis
-    fuga numquam consectetur doloribus quos dolor soluta odit reiciendis quas
-    voluptatum, labore blanditiis amet ea non architecto eaque ipsum. Ut
-    consequuntur expedita ratione fuga, doloremque animi debitis dolorem sint.
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae perspiciatis
-    fuga numquam consectetur doloribus quos dolor soluta odit reiciendis quas
-    voluptatum, labore blanditiis amet ea non architecto eaque ipsum. Ut
-    consequuntur expedita ratione fuga, doloremque animi debitis dolorem sint.
-    Fugit?
+  <% for( let post of posts ) { %>
+  <div class="post-container">
+    <div class="heading"><%= post.title %></div>
+    <div class="content" data-content data-content-id = "<%= post.id %>"><%= post.content %></div>
   </div>
+  <% } %>
 </div>
+<script src="/js/home.js"></script>

@@ -1,0 +1,8 @@
+@import "./common.scss";
+.container{
+    font-family: $poppins;
+    width: max-content;
+    .content{
+        max-width: 100ch;
+    }
+}

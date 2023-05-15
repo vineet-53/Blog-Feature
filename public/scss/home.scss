@@ -1,22 +1,21 @@
-
-@import "./common.scss";
-.container{
-    padding-block : 1rem;
-    font-family: $poppins;
-    display: flex;
-    flex-direction: column
-    ;gap: .5rem;
-    .heading{
-        font-family: $sans;
-        font-weight:600;
-        font-size: 1.3rem;
-        text-transform: capitalize;
-    }
-    .content{
-        font-size: .95em;
-        font-weight: 500;
-        line-height: 1.5em;
-        max-width: 200ch;
-    }
-
+@import './common.scss';
+.container {
+  padding-block: 1rem;
+  font-family: $poppins;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  .heading {
+    font-family: $sans;
+    font-weight: 600;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    margin-bottom: .4em;
+  }
+  .content {
+    font-size: 0.95em;
+    font-weight: 500;
+    line-height: 1.5em;
+    max-width: 100ch;
+  }
 }
