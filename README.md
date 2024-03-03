@@ -37,4 +37,7 @@ Install my-project with npm
 
 ![image](https://github.com/vineet-53/Blog-Feature/assets/116667797/ea403a53-a5db-4287-b302-6eef9a7f11eb)
 
-![image](https://github.com/vineet-53/Blog-Feature/assets/116667797/72951198-7769-4592-ba0d-fa8bffa226b4)
+![image](https://github.com/vineet-53/Blog-Feature/assets/116667797/0bf3993e-cfca-4f77-92b5-94426d869fb0)
+
+![image](https://github.com/vineet-53/Blog-Feature/assets/116667797/10858143-3711-4d1d-9061-8700e5dcd579)
+
