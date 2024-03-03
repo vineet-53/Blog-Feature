@@ -17,9 +17,10 @@ Install my-project with npm
 ## Tech Stack Used
 - HTML 
 - CSS
-- JavaScript  
-
-
+- JavaScript
+- Mongodb
+- Express 
+- EJS  
 
 
 ## Lessons Learned
