@@ -7,9 +7,8 @@ I implemented a Blog Page feature that allows users to compose and create blogs.
 Install my-project with npm
 
 ```bash
-  git clone ....
-  npm install my-project
-  cd my-project
+  git clone https://github.com/vineet-53/Blog-Feature.git
+  cd Blog-Feature
   npm install 
   npm run dev
 ```
