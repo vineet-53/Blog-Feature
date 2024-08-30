@@ -1,10 +1,8 @@
 
-# Blog Page Feature
+# Blog Page Feature [Live](https://blog-feature.onrender.com)
 
-I implemented a Blog Page feature that allows users to compose and create blogs.
+Implemented This Blog Page Website that allows users to compose and create blogs.
 ## Installation
-
-Install my-project with npm
 
 ```bash
   git clone https://github.com/vineet-53/Blog-Feature.git
